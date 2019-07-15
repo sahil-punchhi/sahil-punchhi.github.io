@@ -50,8 +50,8 @@ img{width:auto; max-width:100%; height:auto; margin:0; padding:0; border:none; l
 /* Fonts
 --------------------------------------------------------------------------------------------------------------- */
 body, input, textarea, select{font-family:Verdana, Geneva, sans-serif;}
-h1, h2, h3, h4, h5, h6, .heading{font-family:Georgia, "Times New Roman", Times, serif;}
-s1, .subheading{font-family:Verdana, Geneva, sans-serif;}
+h2, h3, h4, h5, h6, .heading{font-family:Georgia, "Times New Roman", Times, serif;}
+s1, s2, .subheading{font-family:Verdana, Geneva, sans-serif;}
 
 /* Forms
 --------------------------------------------------------------------------------------------------------------- */
@@ -64,9 +64,11 @@ label{margin-bottom:5px;}
 
 /* Generalise
 --------------------------------------------------------------------------------------------------------------- */
-h1, h2, h3, h4, h5, h6, .heading{margin:0 0 20px 0; font-size:22px; line-height:normal; font-weight:normal; text-transform:uppercase;}
+h2, h3, h4, h5, .heading{margin:0 0 20px 0; font-size:22px; line-height:normal; font-weight:normal; text-transform:uppercase;}
+h6, .heading{margin:0 0 20px 0; font-size:22px; line-height:normal; font-weight:normal; text-transform:uppercase; text-align: center;}
 .heading.nospace{margin-bottom:0;}
 s1, .subheading{margin:0; padding:0; font-size:22px; line-height:1.6em;}
+s2, .subheading{margin:0 0 20px 0; font-size:22px; line-height:normal; font-weight:normal;}
 
 address{font-style:normal; font-weight:normal;}
 hr{display:block; width:100%; height:1px; border:solid; border-width:1px 0 0 0;}

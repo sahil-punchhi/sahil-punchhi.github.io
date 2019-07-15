@@ -21,7 +21,7 @@ Licence URI: https://www.os-templates.com/template-terms
   <header id="header" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <div id="logo" class="fl_left">
-      <h1><a href="index.html">Lalapeden</a></h1>
+      <s2>Don't just Dream, Do</s2>
     </div>
     <nav id="mainav" class="fl_right">
       <ul class="clear">
@@ -78,14 +78,18 @@ Licence URI: https://www.os-templates.com/template-terms
     <!-- main body -->
     <!-- ################################################################################################ -->
     <div class="sectiontitle">
-      <h6 class="heading">Tellus sed interdum</h6>
-      <p>Mauris nec tortor lectus vehicula leo quis elementum.</p>
+      <h6 class="heading">Projects</h6>
+      <p>Below are some of the ideas I have worked upon. Please check out the github link for more details.</p>
     </div>
     <ul class="nospace group services">
       <li class="one_third first">
         <article class="infobox">
-          <h6 class="heading"><i class="fa fa-joomla"></i> <a href="#">Elementum</a></h6>
-          <p>Risus diam vel erat sed ligula nisl dictum quis tempus eu dictum sit amet tortor [&hellip;]</p>
+          <h6 class="heading"><i class="fa fa-joomla"></i> <a href="https://github.com/sahil-punchhi/Task-scheduler-for-embeded-system">Task Scheduler for embedded system</a></h6>
+          <p>One major goal of embedded system design is to find a feasible schedule for
+          <span id="dots1" style="display: inline;">[...]</span>
+          <span id="more1" style="display: none;">the task set such that all the timing constraints are satisfied.</span>
+          </p>
+          <footer><a id="myBtn1" onclick="myFunction('dots1','more1','myBtn1')">Read more</a></footer>
         </article>
       </li>
       <li class="one_third">
@@ -298,5 +302,36 @@ Licence URI: https://www.os-templates.com/template-terms
 <script src="layout/scripts/jquery.backtotop.js"></script>
 <script src="layout/scripts/jquery.mobilemenu.js"></script>
 <script src="layout/scripts/jquery.flexslider-min.js"></script>
+<script type="text/javascript">
+
+  function openPdf(e, path, redirect) {
+      // stop the browser from going to the href
+      e = e || window.event; // for IE
+      e.preventDefault(); 
+
+      // launch a new window with your PDF
+      window.open(path, 'somename');
+
+      // redirect current page to new location
+      window.location = redirect;
+  }
+
+  function myFunction(dotsID,moreID,myBtnID) {
+  var dots = document.getElementById(dotsID);
+  var moreText = document.getElementById(moreID);
+  var btnText = document.getElementById(myBtnID);
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+
+</script>
 </body>
 </html>
