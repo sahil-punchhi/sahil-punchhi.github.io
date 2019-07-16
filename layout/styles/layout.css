@@ -54,6 +54,7 @@ File: Layout CSS
 .testimonials{}
 .testimonials article{display:block; padding-bottom:10px; text-align:center;}
 .testimonials article img, .testimonials article blockquote, .testimonials article .starating{margin-bottom:20px;}
+.testimonials article blockquote2{margin-bottom:20px; text-align:right;}
 .testimonials article .starating li{display:inline-block; margin-right:3px;}
 .testimonials article .starating li:last-child{margin-right:0;}
 .testimonials article .heading{}
