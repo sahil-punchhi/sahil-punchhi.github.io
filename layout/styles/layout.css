@@ -20,7 +20,7 @@ File: Layout CSS
 .row4, .row4 a{}
 .row5, .row5 a{}
 
-#more1,#more2,#more3,#more4,#more5,#more6 {display: none;}
+#more1,#more2,#more3,#more4,#more5,#more6, #more7, #more8 {display: none;}
 
 /* Header
 --------------------------------------------------------------------------------------------------------------- */
@@ -43,7 +43,7 @@ File: Layout CSS
 
 /* Content Area
 --------------------------------------------------------------------------------------------------------------- */
-.container{padding:80px 0;}
+.container{padding:55px 0;}
 
 /* Split Box
 --------------------------------------------------------------------------------------------------------------- */
@@ -56,24 +56,37 @@ File: Layout CSS
 .split section .fa-ul > li{position:relative; margin-bottom:15px; padding-left:30px}
 .split section .fa-ul > li:last-child{margin-bottom:0;}
 .split section .fa-li{position:absolute; top:2px; left:0; width:auto; font-size:20px;}
+.split section img2{margin-bottom:20px;}
 
 /* Content */
 .container .content{}
 
-.sectiontitle{margin-bottom:80px;}
+.sectiontitle{margin-top:20px; margin-bottom:20px;}
 .sectiontitle *{margin:0;}
+
+.projecttext{margin-top:20px; margin-bottom:0px; margin-left:0;}
 
 .testimonials{}
 .testimonials article{display:block; padding-bottom:10px; text-align:center;}
-.testimonials article img, .testimonials article blockquote, .testimonials article .starating{margin-bottom:20px;}
+.testimonials article img, .testimonials article img2, .testimonials article blockquote, .testimonials article .starating{margin-bottom:20px;}
 .testimonials article .starating li{display:inline-block; margin-right:3px;}
 .testimonials article .starating li:last-child{margin-right:0;}
 .testimonials article .heading{}
 
-.services > li:nth-child(-n+3){margin-bottom:30px;}/* Adds bottom margin to the first three elements only */
-.services > li:last-child{margin-bottom:0;}/* Used when elements stack in small viewports */
-.services article{display:block; padding:30px;}
-.services article i{margin-right:10px; font-size:32px;}
+/* .services > li:nth-child(-n+3){margin-bottom:30px;}/* Adds bottom margin to the first three elements only */
+/*.services > li:last-child{margin-bottom:0;}/* Used when elements stack in small viewports */
+/*.services article{display:block; padding:30px;}
+.services article i{margin-right:10px; font-size:32px;} 
+*/
+
+.services{}
+.services li{padding:40px 0 0 0; text-align:center;}
+.services li:last-child{margin-bottom:0;}/* Used when elements stack in small viewports */
+.services li *{}
+.services li article{display:block; position:relative; padding:65px 20px 25px 20px;}
+.services li article i{display:inline-block; position:absolute; top:44px; left:50%; width:80px; height:80px; line-height:70px; margin:-40px 0 0 -40px; font-size:36px; z-index:1;}
+.services li article .heading{font-size:2rem;}
+.services li article footer{margin-top:25px;}
 
 .elements li:nth-child(-n+3){}/* Adds bottom margin to the first three elements only */
 .elements > li:last-child{margin-bottom:0;}/* Used when elements stack in small viewports */
@@ -130,7 +143,7 @@ File: Layout CSS
 
 /* Transition Fade
 --------------------------------------------------------------------------------------------------------------- */
-*, *::before, *::after{transition:all .5s ease-in-out;}
+*, *::before, *::after{transition:all .3s ease-in-out;}
 #mainav form *{transition:none !important;}
 
 

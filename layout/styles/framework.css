@@ -9,7 +9,7 @@ File: Framework CSS
 */
 
 html{overflow-y:scroll; overflow-x:hidden;}
-html, body{margin:0; padding:0; font-size:14px; line-height:1.6em;}
+html, body{margin:0; padding:0; font-size:14px; line-height:1.79em;}
 
 *, *::before, *::after{box-sizing:border-box;}
 
@@ -47,11 +47,16 @@ img{width:auto; max-width:100%; height:auto; margin:0; padding:0; border:none; l
 .imgr{margin:0 0 10px 15px; clear:right;}
 
 
+img2{width:auto; max-width:100%; height:auto; margin:0; padding:0; border:none; line-height:normal; vertical-align:middle; margin-left:250px;}
+
+
 /* Fonts
 --------------------------------------------------------------------------------------------------------------- */
 body, input, textarea, select{font-family:Verdana, Geneva, sans-serif;}
 h2, h3, h4, h5, h6, h7, .heading{font-family:Georgia, "Times New Roman", Times, serif;}
 s1, s2, .subheading{font-family:Verdana, Geneva, sans-serif;}
+h6, .heading2{font-family:Georgia, "Times New Roman", Times, serif;}
+h8, .heading3{font-family:Georgia, "Times New Roman", Times, serif;}
 
 /* Forms
 --------------------------------------------------------------------------------------------------------------- */
@@ -65,8 +70,8 @@ label{margin-bottom:5px;}
 /* Generalise
 --------------------------------------------------------------------------------------------------------------- */
 h2, h3, h4, h5, h7, .heading{margin:0 0 20px 0; font-size:22px; line-height:normal; font-weight:normal; text-transform:uppercase;}
-
-h6, .heading{margin:0 0 20px 0; font-size:22px; line-height:normal; font-weight:normal; text-align:center ;}
+h6, .heading2{margin:0 0 20px 0; font-size:22px; line-height:normal; font-weight:normal; text-align:center; text-transform: none}
+h8, .heading3{margin:0 0 20px 0; font-size:16px; line-height:normal; font-weight:normal; text-align:center; text-transform: none}
 .heading.nospace{margin-bottom:0;}
 s1, .subheading{margin:0; padding:0; font-size:22px; line-height:1.6em;}
 s2, .subheading{margin:0 0 20px 0; font-size:22px; line-height:normal; font-weight:normal;}
@@ -75,6 +80,7 @@ address{font-style:normal; font-weight:normal;}
 hr{display:block; width:100%; height:1px; border:solid; border-width:1px 0 0 0;}
 
 .font-xs{font-size:.8rem;}
+.font-x4{font-size:1.0rem;}
 .font-x1{font-size:1.2rem;}
 .font-x2{font-size:1.8rem;}
 .font-x3{font-size:2.8rem;}

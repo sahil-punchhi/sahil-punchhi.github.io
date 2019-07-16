@@ -26,30 +26,11 @@ Licence URI: https://www.os-templates.com/template-terms
     <nav id="mainav" class="fl_right">
       <ul class="clear">
         <li class="active"><a href="index.html">Home</a></li>
-        <li><a class="drop" href="#">Pages</a>
-          <ul>
-            <li><a href="pages/gallery.html">Gallery</a></li>
-            <li><a href="pages/full-width.html">Full Width</a></li>
-            <li><a href="pages/sidebar-left.html">Sidebar Left</a></li>
-            <li><a href="pages/sidebar-right.html">Sidebar Right</a></li>
-            <li><a href="pages/basic-grid.html">Basic Grid</a></li>
-          </ul>
-        </li>
-        <li><a class="drop" href="#">Dropdown</a>
-          <ul>
-            <li><a href="#">Level 2</a></li>
-            <li><a class="drop" href="#">Level 2 + Drop</a>
-              <ul>
-                <li><a href="#">Level 3</a></li>
-                <li><a href="#">Level 3</a></li>
-                <li><a href="#">Level 3</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Level 2</a></li>
-          </ul>
-        </li>
-        <li><a href="#">Link Text</a></li>
-        <li><a href="#">Link Text</a></li>
+        <li><a href="#skill_set">ABOUT ME</a></li>
+        <li><a href="#all_projects">PROJECTS</a></li>
+        <li><a href="assets/Resume_Sahil_Punchhi.pdf" onclick="openPdf(event, 'assets/Resume_Sahil_Punchhi.pdf', 'newpage.html');">RESUME</a></li>
+        <li><a href="#all_testimonials">TESTIMONIALS</a></li>
+        <li><a href="#contact_info">CONTACT INFO</a></li>
       </ul>
     </nav>
     <!-- ################################################################################################ -->
@@ -58,7 +39,7 @@ Licence URI: https://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper bgded overlay" style="background-image:url('images/demo/backgrounds/01.png');">
+<div class="wrapper bgded overlay" style="background-image:url('images/demo/backgrounds/background1.jpeg');">
   <div id="pageintro" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <article>
@@ -73,71 +54,71 @@ Licence URI: https://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper row3">
+<div id="all_projects" class="wrapper row3">
   <main class="hoc container clear"> 
     <!-- main body -->
     <!-- ################################################################################################ -->
     <div class="sectiontitle">
-      <h7 class="heading">Projects</h7>
-      <p>Below are some of the ideas I have worked upon. Please click on the project title to reach the GitHub repository.</p>
+      <h6 class="heading">Projects</h6>
+      <div class="projecttext" style="text-align: center"><p>Below are some of the ideas I have worked upon. Please click on the project title to reach the GitHub repository.</p></div>
     </div>
     <ul class="nospace group services">
       <li class="one_third first">
         <article class="infobox">
-          <h6 class="heading"><i class="fa fa-joomla"></i><a href="https://github.com/sahil-punchhi/Task-scheduler-for-embeded-system">Task Scheduler</a></h6>
-          <p>One major goal of embedded system design is to find a feasible schedule for
+          <h6 class="heading2"><a href="https://github.com/sahil-punchhi/Task-scheduler-for-embeded-system"><i class="fa fa-clock"></i>Task Scheduler</a></h6>
+          <p>One major goal of embedded system design is to find a feasible schedule for the task set such
           <span id="dots1" style="display: inline;">[...]</span>
-          <span id="more1" style="display: none;">the task set such that all the timing constraints are satisfied. A binomial heap-based priority queue is implemented to solve this problem.</span>
+          <span id="more1" style="display: none;">that all the timing constraints are satisfied. A binomial heap-based priority queue is implemented to solve this problem.</span>
           </p>
           <footer><a id="myBtn1" onclick="myFunction('dots1','more1','myBtn1')">Read more</a></footer>
         </article>
       </li>
       <li class="one_third">
         <article class="infobox">
-            <h6 class="heading"><i class="fa fa-key"></i> <a href="https://github.com/sahil-punchhi/Fun-with-Maze">Fun with Maze</a></h6>
-            <p>To analyse various characteristics of a maze, represented by a particular cod
+            <h6 class="heading2"><a href="https://github.com/sahil-punchhi/Fun-with-Maze"><i class="fa fa-window-maximize"></i>Fun with Maze</a></h6>
+            <p>To analyse various characteristics of a maze, represented by a particular coding of its basic
             <span id="dots2" style="display: inline;">[...]</span>
-            <span id="more2" style="display: none;">ing of its basic constituents into numbers, using recursivity, A* and depth-first search.</span>
+            <span id="more2" style="display: none;">constituents into numbers, using recursivity, A* and depth-first search.</span>
             </p>
             <footer><a id="myBtn2" onclick="myFunction('dots2','more2','myBtn2')">Read more</a></footer>
         </article>
       </li>
       <li class="one_third">
         <article class="infobox">
-            <h6 class="heading"><i class="fa fa-key"></i> <a href="https://github.com/sahil-punchhi/AVL-Tree">AVL Tree</a></h6>
-            <p>To implement an AVL tree (self-balancing binary search tree) and a set of
+            <h6 class="heading2"><a href="https://github.com/sahil-punchhi/AVL-Tree"><i class="fa fa-tree"></i>AVL Tree</a></h6>
+            <p>To implement an AVL tree (self-balancing binary search tree) and a set of functions
             <span id="dots3" style="display: inline;">[...]</span>
-            <span id="more3" style="display: none;">functions associated with AVL tree like search node, delete node, tree-union, tree-intersection, clone tree, print tree.</span>
+            <span id="more3" style="display: none;">associated with AVL tree like search node, delete node, tree-union, tree-intersection, clone tree, print tree.</span>
             </p>
             <footer><a id="myBtn3" onclick="myFunction('dots3','more3','myBtn3')">Read more</a></footer>
         </article>
       </li>
       <li class="one_third first">
         <article class="infobox">
-            <h6 class="heading"><i class="fa fa-key"></i> <a href="https://github.com/sahil-punchhi/Tic-Tac-Toe">Ultimate Tic-Tac-Toe</a></h6>
-            <p>An interactive game of 9 board Tic-Tac-Toe which can be played against an agent whi
+            <h6 class="heading2"><a href="https://github.com/sahil-punchhi/Tic-Tac-Toe"><i class="fa fa-times-circle"></i>Ultimate Tic-Tac-Toe</a></h6>
+            <p>An interactive game of 9 board Tic-Tac-Toe which can be played against an agent which is
             <span id="dots4" style="display: inline;">[...]</span>
-            <span id="more4" style="display: none;">ch is designed on the principles of Artificial Intelligence using score heuristic.</span>
+            <span id="more4" style="display: none;">designed on the principles of Artificial Intelligence using score heuristic.</span>
             </p>
             <footer><a id="myBtn4" onclick="myFunction('dots4','more4','myBtn4')">Read more</a></footer>
         </article>
       </li>
       <li class="one_third">
         <article class="infobox">
-            <h6 class="heading"><i class="fa fa-key"></i> <a href="https://github.com/sahil-punchhi/Doubly-Linked-Lists-and-Sets">Doubly Linked Lists</a></h6>
-            <p>To implement a set of functions based on the doubly linked lists like
+            <h6 class="heading2"><a href="https://github.com/sahil-punchhi/Doubly-Linked-Lists-and-Sets"><i class="fa fa-list"></i>Doubly Linked Lists</a></h6>
+            <p>To implement a set of functions based on the doubly linked lists like clone list, set-union,
             <span id="dots5" style="display: inline;">[...]</span>
-            <span id="more5" style="display: none;">clone list, set-union, set-intersection, print list etc.</span>
+            <span id="more5" style="display: none;">set-intersection, print list etc.</span>
             </p>
             <footer><a id="myBtn5" onclick="myFunction('dots5','more5','myBtn5')">Read more</a></footer>
         </article>
       </li>
       <li class="one_third">
         <article class="infobox">
-            <h6 class="heading"><i class="fa fa-key"></i> <a href="https://github.com/sahil-punchhi/Graphs-using-adjacency-lists">Graphs using Adjacency Lists</a></h6>
-            <p>To implement a graph ADT (Abstract Data Type) with several functions,
+            <h6 class="heading2"><a href="https://github.com/sahil-punchhi/Graphs-using-adjacency-lists"><i class="fa fa-chart-area"></i>Adjacency Lists & Graphs</a></h6>
+            <p>To implement a graph ADT (Abstract Data Type) with several functions, like shortest distance
             <span id="dots6" style="display: inline;">[...]</span>
-            <span id="more6" style="display: none;">like shortest distance between 2 vertices using Dijkstra's Algorithm, reachable vertices using breadth first search etc.</span>
+            <span id="more6" style="display: none;">between 2 vertices using Dijkstra's Algorithm, reachable vertices using breadth first search etc.</span>
             </p>
             <footer><a id="myBtn6" onclick="myFunction('dots6','more6','myBtn6')">Read more</a></footer>
         </article>
@@ -151,11 +132,12 @@ Licence URI: https://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div id="skill_set" class="wrapper bgded" style="background-image:url('images/demo/backgrounds/6THN4SX8IY.jpg');">
+<div id="skill_set" class="wrapper bgded" style="background-image:url('images/demo/backgrounds/about_me.png');">
   <div class="hoc split clear">
     <section> 
       <!-- ################################################################################################ -->
-      <h2 class="heading">ABOUT ME</h2>
+      <h6 class="heading">ABOUT ME</h6>
+      <img style="padding-left:262px;" src="images/demo/sahil_punchhi.png" alt="">
       <p>I am  a postgraduate student in IT (majoring in Data Science and AI) with nearly 3 years of experience working in financial institutions (including JP Morgan). I have professional expertise in handling large datasets for assignments involving predictive analytics, machine learning, database architecture and credit risk determination. Academic assignments have included big data, neural networks, data mining, etc. I have exposure to Asian, Australian and North American markets and I am open to relocating for ideal opportunities.</p>
       <p>Profile:-</p>
       <ul class="fa-ul">
@@ -169,7 +151,7 @@ Licence URI: https://www.os-templates.com/template-terms
     </section>
   </div>
 </div>
-<div class="wrapper bgded overlay" style="background-image:url('images/demo/backgrounds/02.png');">
+<div class="wrapper bgded overlay" style="background-image:url('images/demo/backgrounds/quote.png');">
   <div class="hoc container clear"> 
     <!-- ################################################################################################ -->
     <div class="flexslider testimonials">
@@ -225,29 +207,29 @@ Licence URI: https://www.os-templates.com/template-terms
   <section class="hoc container clear"> 
     <!-- ################################################################################################ -->
     <div class="sectiontitle">
-      <h6 class="heading">Lectus molestie porttitor</h6>
-      <p>Donec accumsan ligula vitae magna mauris neque phasellus.</p>
+      <h6 class="heading" style="padding-bottom:20px;">Blogs on Artificial Intelligence</h6>
+      <div class="projecttext" style="text-align: center; padding-bottom:20px;" ><p>Here are some of the interesting blogs I follow on Machine Learning & Artificial Intelligence.</p></article></div>
     </div>
     <ul class="nospace group elements">
       <li class="one_third first">
-        <article><a href="#"><i class="fa fa-clipboard"></i></a>
-          <h6 class="heading">Justo pellentesque</h6>
-          <p>Quis iaculis scelerisque diam nisl pulvinar risus at fringilla sem augue in nulla [&hellip;]</p>
-          <footer><a href="#">Read More &raquo;</a></footer>
+        <article><a href="http://colah.github.io/ "><i class="fa fa-clipboard"></i></a>
+          <h7 class="heading">Chris Olah's blog</h7>
+          <p>Chris Olah's blog on artificial intelligence. He uses visualizations effectively to support his explanations.</p>
+          <footer><a href="http://colah.github.io/">Read More &raquo;</a></footer>
         </article>
       </li>
       <li class="one_third">
-        <article><a href="#"><i class="fa fa-skyatlas"></i></a>
-          <h6 class="heading">Orci vitae vehicula</h6>
-          <p>Morbi semper metus ac pulvinar adipiscing dui justo gravida arcu et venenatis justo [&hellip;]</p>
-          <footer><a href="#">Read More &raquo;</a></footer>
+        <article><a href="https://www.deeplearningweekly.com/"><i class="fa fa-leanpub"></i></a>
+          <h7 class="heading">Deep Learning Weekly </h7>
+          <p>The Deep Learning Weekly blog contains articles, tutorials, paper summaries and interviews with deep learning experts.</p>
+          <footer><a href="https://www.deeplearningweekly.com/">Read More &raquo;</a></footer>
         </article>
       </li>
       <li class="one_third">
-        <article><a href="#"><i class="fa fa-empire"></i></a>
-          <h6 class="heading">Auctor luctus diam</h6>
-          <p>Lacus ut nisi maecenas ultrices neque a nisl nunc lorem diam rhoncus aliquet sit [&hellip;]</p>
-          <footer><a href="#">Read More &raquo;</a></footer>
+        <article><a href="https://ai.googleblog.com/"><i class="fa fa-google"></i></a>
+          <h7 class="heading">Research at Google</h7>
+          <p>Stories and updates on the cutting-edge work Google is doing in artificial intelligence and machine learning.</p>
+          <footer><a href="https://ai.googleblog.com/">Read More &raquo;</a></footer>
         </article>
       </li>
     </ul>
@@ -258,31 +240,39 @@ Licence URI: https://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper row3">
+<div id="all_testimonials" class="wrapper row3">
   <section class="hoc container clear"> 
     <!-- ################################################################################################ -->
     <div class="sectiontitle">
-      <h6 class="heading">Volutpat mollis vivamus</h6>
-      <p>Pharetra libero non facilisis imperdiet mi augue feugiat.</p>
+      <h6 class="heading" style="padding-bottom:20px;">Testimonials</h6>
+      <div class="projecttext" style="text-align: center; padding-bottom:20px;"><p>I am happy to share some of the testimonials I have recieved on LinkedIn.</p></div>
     </div>
     <ul class="nospace group">
       <li class="one_half first">
         <article class="group">
-          <div class="one_half first"><a href="#"><img src="images/demo/320x240.png" alt=""></a></div>
-          <div class="one_half">
-            <h3 class="heading font-x1">Amet sodales tellus</h3>
-            <p>Nisl sit amet mollis enim velit posuere metus nam tempus odio in erat integer ante risus tempor quis ultrices quis [&hellip;]</p>
-            <footer><a href="#">Read More &raquo;</a></footer>
+          <div class="one_quarter first"><a href="https://www.linkedin.com/in/akrishna007/"><img class="circle" src="images/demo/abhinav_krishna.png" alt=""></a></div>
+          <div class="three_quarter">
+            <h3 class="heading font-x1">Abhinav Krishna</h3>
+            <h8 class="heading3">Institutional Equity Sales, J.P. Morgan</h8>
+            <p>Sahil worked with me in the Global Markets Group at J.P. Morgan within the domain of equity derivatives pricing. His work centred around software programming and analytics to develop pricing models. He came across as a diligent professional
+            <span id="dots7" style="display: inline;">[...]</span>
+            <span id="more7" style="display: none;">with remarkable business acumen, who was sincere towards the tasks that were set before him. He demonstrated creativity in solving problems and automated various internal business workflows. In more than 6 months of working with him, I was very impressed by his ability to bond with the broader team and think about the bigger picture while solving individual problems.</span>
+            </p>
+            <footer><a id="myBtn7" onclick="myFunction('dots7','more7','myBtn7')">Read more</a></footer>
           </div>
         </article>
       </li>
       <li class="one_half">
         <article class="group">
-          <div class="one_half first"><a href="#"><img src="images/demo/320x240.png" alt=""></a></div>
-          <div class="one_half">
-            <h3 class="heading font-x1">Fringilla non augue</h3>
-            <p>Et turpis morbi mi neque facilisis sollicitudin faucibus ac primis in faucibus orci luctus et ultrices posuere cubilia [&hellip;]</p>
-            <footer><a href="#">Read More &raquo;</a></footer>
+          <div class="one_quarter first"><a href="https://www.linkedin.com/in/dr-arun-kumar-jalan-0729743a/"><img class="circle" src="images/demo/arun_kumar.png" alt=""></a></div>
+          <div class="three_quarter">
+            <h3 class="heading font-x1">Dr. A. K. Jalan</h3>
+            <h8 class="heading3">Assistant Professor, BITS Pilani</h8>
+            <p>I knew Sahil for three years as a student of B.E. (Hons.) in Mechanical Engineering at BITS Pilani in the capacity of his course instructor and project guide. I would rate him as the best student I have met in my 10 years long teaching career
+            <span id="dots8" style="display: inline;">[...]</span>
+            <span id="more8" style="display: none;">among the undergraduate students that I have come across. Sahil is systematic and logical in his approach, well versed in mathematical, statistical and programming concepts, and possesses an innovative mind. It was this inquisitive approach which impressed me, and I decided to supervise him for his thesis on the topic ‘Development of kinetic multi-segment foot models for gait analysis’. He was always enthusiastic about using the latest tools and soft-wares for data manipulation in the research project. The quality that helped him excel was his willingness to work hard and never shirking away from putting in extra hours.</span>
+            </p>
+            <footer><a id="myBtn8" onclick="myFunction('dots8','more8','myBtn8')">Read more</a></footer>
           </div>
         </article>
       </li>
@@ -294,29 +284,21 @@ Licence URI: https://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper row4">
+<div id="contact_info" class="wrapper row4">
   <footer id="footer" class="hoc clear"> 
     <!-- ################################################################################################ -->
-    <h6 class="heading">Lalapeden</h6>
-    <p>Vivamus quis tellus eget quam elementum aliquam cras nibh mi adipiscing a sodales in tincidunt ut enim praesent tempor molestie metus ut pretium odio.</p>
-    <ul class="faico clear">
-      <li><a class="faicon-facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-      <li><a class="faicon-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-      <li><a class="faicon-dribble" href="#"><i class="fa fa-dribbble"></i></a></li>
-      <li><a class="faicon-linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-      <li><a class="faicon-google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
-      <li><a class="faicon-vk" href="#"><i class="fa fa-vk"></i></a></li>
-    </ul>
-    <nav>
-      <ul class="nospace">
-        <li><a href="#"><i class="fa fa-lg fa-home"></i></a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Privacy</a></li>
-        <li><a href="#">Disclaimer</a></li>
-        <li><a href="#">Cookies</a></li>
+    <h6 class="heading">Contact Details</h6>
+      <ul class="nospace btmspace-30 linklist contact">
+        <li><i class="fa fa-map-marker"></i>    Kensington, Sydney, NSW, 2033</li>
+        <li><i class="fa fa-phone"></i>    +61 452581776</li>
+        <li><i class="fa fa-envelope-o"></i>    sahil.punchhi@student.unsw.edu.au</li>
+        <li><i class="fa fa-envelope-o"></i>    sahil.punchhi@gmail.com</li>
       </ul>
-    </nav>
+    <ul class="faico clear">
+      <li><a class="faicon-github" href="https://github.com/sahil-punchhi"><i class="fa fa-github"></i></a></li>
+      <li><a class="faicon-facebook" href="https://www.facebook.com/sahil.punchhi"><i class="fa fa-facebook"></i></a></li>
+      <li><a class="faicon-linkedin" href="https://www.linkedin.com/in/sahil-punchhi/"><i class="fa fa-linkedin"></i></a></li>
+    </ul>
     <!-- ################################################################################################ -->
   </footer>
 </div>
@@ -326,8 +308,8 @@ Licence URI: https://www.os-templates.com/template-terms
 <div class="wrapper row5">
   <div id="copyright" class="hoc clear"> 
     <!-- ################################################################################################ -->
-    <p class="fl_left">Copyright &copy; 2018 - All Rights Reserved - <a href="#">Domain Name</a></p>
-    <p class="fl_right">Template by <a target="_blank" href="https://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
+    <p class="fl_left">Copyright &copy; 2018 - All Rights Reserved - <a href="https://github.com/sahil-punchhi">https://github.com/sahil-punchhi</a></p>
+    <p class="fl_right">Website by <a href="https://github.com/sahil-punchhi">Sahil Punchhi</a> & <a href="https://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
     <!-- ################################################################################################ -->
   </div>
 </div>
@@ -342,7 +324,7 @@ Licence URI: https://www.os-templates.com/template-terms
 <script src="layout/scripts/jquery.flexslider-min.js"></script>
 <script type="text/javascript">
 
-  function openPdf(e, path, redirect) {
+ /* function openPdf(e, path, redirect) {
       // stop the browser from going to the href
       e = e || window.event; // for IE
       e.preventDefault(); 
@@ -353,7 +335,7 @@ Licence URI: https://www.os-templates.com/template-terms
       // redirect current page to new location
       window.location = redirect;
   }
-
+*/
   function myFunction(dotsID,moreID,myBtnID) {
   var dots = document.getElementById(dotsID);
   var moreText = document.getElementById(moreID);
