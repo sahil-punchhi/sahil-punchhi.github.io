@@ -65,6 +65,7 @@ label{margin-bottom:5px;}
 /* Generalise
 --------------------------------------------------------------------------------------------------------------- */
 h2, h3, h4, h5, h7, .heading{margin:0 0 20px 0; font-size:22px; line-height:normal; font-weight:normal; text-transform:uppercase;}
+
 h6, .heading{margin:0 0 20px 0; font-size:22px; line-height:normal; font-weight:normal; text-align:center ;}
 .heading.nospace{margin-bottom:0;}
 s1, .subheading{margin:0; padding:0; font-size:22px; line-height:1.6em;}
