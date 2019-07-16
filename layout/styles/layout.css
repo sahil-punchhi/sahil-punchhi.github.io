@@ -49,7 +49,7 @@ File: Layout CSS
 --------------------------------------------------------------------------------------------------------------- */
 .split{}
 
-.split section{display:block; position:relative; float:right; width:50%; padding:100px 0 100px 50px;}
+.split section{display:block; position:relative; float:right; width:50%; padding:40px 0 40px 40px;}
 .split section::after{display:block; position:absolute; top:0; right:-1000%; bottom:0; left:100%; content:"";}
 
 .split section .fa-ul{margin:0; padding:0; list-style:none;}
@@ -283,6 +283,9 @@ input:focus, textarea:focus, *:required:focus{border-color:#E03F3F;}
 .elements article i{border-color:#D7D7D7;}
 .elements article:hover i{color:#FFFFFF; background-color:#E03F3F; border-color:#E03F3F;}
 
+/* Split Box */
+.split section, .split section::after{color:#FFFFFF; background-color:rgba(228,63,33,.55)/* #E43F21 */;}
+.split section .fa-ul .fa-li{color:#E03F3F;}
 
 /* Footer */
 #footer hr, #footer .borderedbox{border-color:rgba(255,255,255,.2);}
