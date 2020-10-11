@@ -32,7 +32,7 @@ File: Layout CSS
 
 /* Page Intro
 --------------------------------------------------------------------------------------------------------------- */
-#pageintro{padding:150px 0; background-image: url("images/demo/backgrounds/background11.png");}
+#pageintro{padding:150px 0;}
 
 #pageintro article{display:block; float:right; max-width:50%;}
 #pageintro article *{margin:0;}
