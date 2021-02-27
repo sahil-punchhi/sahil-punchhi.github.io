@@ -34,7 +34,7 @@ File: Layout CSS
 --------------------------------------------------------------------------------------------------------------- */
 #pageintro{padding:150px 0;}
 
-#pageintro article{display:block; float:right; max-width:70%;}
+#pageintro article{display:block; float:right; max-width:50%;}
 #pageintro article *{margin:0;}
 #pageintro article .heading{margin-bottom:50px; font-size:46px;}
 #pageintro article p:first-of-type{margin-bottom:30px; font-size:22px;}
